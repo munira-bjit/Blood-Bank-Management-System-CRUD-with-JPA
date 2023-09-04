@@ -1,0 +1,7 @@
+package com.munira.main.exception;
+
+public class PatientNotFoundException extends Exception{
+    public PatientNotFoundException(String message) {
+        super(message);
+    }
+}
